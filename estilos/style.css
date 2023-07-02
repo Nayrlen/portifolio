@@ -8,14 +8,15 @@
 }
 
 body, html {
-    background-color: lightgray;
-    height: 100vh;
+    background-color: white;
+    height: 80vh;
     width: 100vw;
 }
 
 header {
     background-color: rgb(148, 148, 148);
-    padding: 20px;
+    padding: 22px;
+    width: 95vw;
 }
 
 i#burguer {
@@ -60,36 +61,40 @@ menu > ul > li > a:hover {
 }
 
 main {
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
+    width: 80vw;
+    margin: 0px;
 }
 
-section#bloco {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+section#texto {
+    background-color: lightgray;
+    height: 50vh;
+    width: 95vw;
+    padding: 30px;
+}
 
-    border-radius: 20px;
-    background-color: white;
-    height: 325px;
-    width: 450px;
+h1, h2, p {
+    padding: 25px;
+    text-align: center;
 }
 
 h1 {
-    padding: 30px;
     font-size: 2em;
 }
 
 h2 {
-    padding: 30px;
     font-size: 2.5em;
 }
 
 p {
-    padding: 30px;
+
     font-size: 1.5em;
+}
+
+section#foto {
+    background-color: black;
+    height: 31vh;
+    width: 95vw;
 }
 
 
