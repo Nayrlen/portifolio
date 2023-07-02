@@ -16,7 +16,8 @@ body, html {
 header {
     background-color: rgb(148, 148, 148);
     padding: 22px;
-    width: 95vw;
+    height: 14vh;
+    width: 100vw;
 }
 
 i#burguer {
@@ -68,13 +69,23 @@ main {
 
 section#texto {
     background-color: lightgray;
-    height: 50vh;
-    width: 95vw;
+    height: 43vh;
+    width: 100vw;
     padding: 30px;
 }
 
+section#foto {
+    background: black url(../imagens/pexels-refargotohp.jpg) no-repeat;
+    background-size: cover;
+    background-position: left center;
+    opacity: 0.9;
+
+    height: 43vh;
+    width: 100vw;
+}
+
 h1, h2, p {
-    padding: 25px;
+    line-height: 73px;
     text-align: center;
 }
 
@@ -91,10 +102,5 @@ p {
     font-size: 1.5em;
 }
 
-section#foto {
-    background-color: black;
-    height: 31vh;
-    width: 95vw;
-}
 
 
