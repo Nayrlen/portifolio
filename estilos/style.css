@@ -69,7 +69,7 @@ main {
 
 section#texto {
     background-color: lightgray;
-    height: 50vh;
+    height: 56vh;
     width: 100vw;
     padding: 30px;
 }
@@ -80,12 +80,12 @@ section#foto {
     background-position: left center;
     opacity: 0.9;
 
-    height: 38vh;
+    height: 32vh;
     width: 100vw;
 }
 
 h1, h2, p {
-    line-height: 80px;
+    line-height: 90px;
     text-align: center;
 }
 
