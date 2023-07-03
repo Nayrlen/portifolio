@@ -16,7 +16,7 @@ body, html {
 header {
     background-color: rgb(148, 148, 148);
     padding: 22px;
-    height: 14vh;
+    height: 12vh;
     width: 100vw;
 }
 
@@ -69,7 +69,7 @@ main {
 
 section#texto {
     background-color: lightgray;
-    height: 43vh;
+    height: 50vh;
     width: 100vw;
     padding: 30px;
 }
@@ -80,12 +80,12 @@ section#foto {
     background-position: left center;
     opacity: 0.9;
 
-    height: 43vh;
+    height: 38vh;
     width: 100vw;
 }
 
 h1, h2, p {
-    line-height: 73px;
+    line-height: 80px;
     text-align: center;
 }
 
