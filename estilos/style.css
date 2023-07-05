@@ -9,14 +9,13 @@
 
 body, html {
     background-color: white;
-    height: 80vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
     background-color: rgb(148, 148, 148);
     padding: 15px;
-    padding-left: 125px;
     height: 10vh;
     width: 100vw;
 }
@@ -30,8 +29,6 @@ i#burguer {
     line-height: 20px;
     padding: 5px;
     cursor: pointer;
-    width: 250px;
-
 }
 
 i#burguer:hover {
@@ -53,13 +50,11 @@ menu a {
 
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
+    
 
     background-color: rgb(86, 87, 87);
     color: white;
     border-top: 2px solid gray;
-    width: 50vw;
-    height: 11vh;
 }
 
 menu > ul > li > a:hover {
